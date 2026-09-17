@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img">
+<title>03 / Global context meets local position</title><desc>Conceptual coordinate illustration · no learned attention or empirical correspondence is shown Original editable conceptual template; no experimental results.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#65758a"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#24354a}.body{font-size:18px}.small{font-size:15px;fill:#65758a}.label{font-size:20px;font-weight:600}</style>
+<rect width="1200" height="680" fill="white"/>
+<text x="32" y="43" font-size="27" font-weight="700" text-anchor="start">03 / Global context meets local position</text>
+<text x="32" y="72" font-size="16" font-weight="400" text-anchor="start" style="fill:#65758a">Conceptual coordinate illustration · no learned attention or empirical correspondence is shown</text>
+<rect x="28" y="105" width="500" height="473" rx="10" fill="#fcfdff" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="49" y="142" font-size="21" font-weight="700" text-anchor="start">A  Shared canvas coordinates</text>
+<line x1="63" y1="180" x2="483" y2="180" stroke="#dbe1e8"/>
+<line x1="63" y1="232" x2="483" y2="232" stroke="#dbe1e8"/>
+<line x1="63" y1="284" x2="483" y2="284" stroke="#dbe1e8"/>
+<line x1="63" y1="336" x2="483" y2="336" stroke="#dbe1e8"/>
+<line x1="63" y1="388" x2="483" y2="388" stroke="#dbe1e8"/>
+<line x1="63" y1="440" x2="483" y2="440" stroke="#dbe1e8"/>
+<line x1="63" y1="180" x2="63" y2="440" stroke="#dbe1e8"/>
+<line x1="123" y1="180" x2="123" y2="440" stroke="#dbe1e8"/>
+<line x1="183" y1="180" x2="183" y2="440" stroke="#dbe1e8"/>
+<line x1="243" y1="180" x2="243" y2="440" stroke="#dbe1e8"/>
+<line x1="303" y1="180" x2="303" y2="440" stroke="#dbe1e8"/>
+<line x1="363" y1="180" x2="363" y2="440" stroke="#dbe1e8"/>
+<line x1="423" y1="180" x2="423" y2="440" stroke="#dbe1e8"/>
+<line x1="483" y1="180" x2="483" y2="440" stroke="#dbe1e8"/>
+<rect x="94" y="213" width="171" height="120" rx="2" fill="#fff0df" stroke="#bf7c33" stroke-width="1.5"/>
+<text x="108" y="249" font-size="17" font-weight="600" text-anchor="start">Anchor window</text>
+<text x="108" y="278" font-size="15" font-weight="400" text-anchor="start">source context</text>
+<rect x="278" y="298" width="171" height="120" rx="2" fill="#e5f3eb" stroke="#4f8665" stroke-width="1.5"/>
+<text x="292" y="335" font-size="17" font-weight="600" text-anchor="start">Target window</text>
+<text x="292" y="363" font-size="15" font-weight="400" text-anchor="start">local generation</text>
+<polyline points="179,338 179,389 268,389" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="194" y="380" font-size="16" font-weight="400" text-anchor="start">Δx, Δy</text>
+<text x="63" y="482" font-size="16" font-weight="400" text-anchor="start">Relative position is defined in one coordinate system.</text>
+<text x="63" y="515" font-size="15" font-weight="400" text-anchor="start" style="fill:#65758a">Use normalized offsets / scale only if your method does.</text>
+<rect x="554" y="105" width="618" height="473" rx="10" fill="#fcfdff" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="577" y="142" font-size="21" font-weight="700" text-anchor="start">B  Conditional generation path</text>
+<rect x="580" y="183" width="235" height="65" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="697.5" y="209.5" font-size="18" font-weight="400" text-anchor="middle">Anchor representation</text>
+<text x="697.5" y="233.5" font-size="18" font-weight="400" text-anchor="middle">global content</text>
+<rect x="876" y="183" width="265" height="65" rx="10" fill="#e5f3eb" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="1008.5" y="209.5" font-size="18" font-weight="400" text-anchor="middle">Relative coordinates</text>
+<text x="1008.5" y="233.5" font-size="18" font-weight="400" text-anchor="middle">local position</text>
+<rect x="580" y="302" width="235" height="64" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="697.5" y="328.0" font-size="18" font-weight="400" text-anchor="middle">Context encoder</text>
+<text x="697.5" y="352.0" font-size="18" font-weight="400" text-anchor="middle">specify actual features</text>
+<rect x="876" y="302" width="265" height="64" rx="10" fill="#e5f3eb" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="1008.5" y="328.0" font-size="18" font-weight="400" text-anchor="middle">Position encoder</text>
+<text x="1008.5" y="352.0" font-size="18" font-weight="400" text-anchor="middle">specify encoding</text>
+<rect x="703" y="453" width="328" height="67" rx="10" fill="#e4effb" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="867.0" y="480.5" font-size="18" font-weight="400" text-anchor="middle">Target-window generator</text>
+<text x="867.0" y="504.5" font-size="18" font-weight="400" text-anchor="middle">specify fusion / injection site</text>
+<polyline points="697,248 697,302" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1008,248 1008,302" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="697,366 697,404 789,404 789,453" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1008,366 1008,404 950,404 950,453" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="32" y="617" font-size="17" font-weight="400" text-anchor="start">Ablation plan: isolate context, position and their interaction under the same generation protocol.</text>
+<text x="32" y="658" font-size="14" font-weight="400" text-anchor="start" style="fill:#65758a">STRUCTURAL TEMPLATE · replace labels and paths with verified method details</text>
+</svg>

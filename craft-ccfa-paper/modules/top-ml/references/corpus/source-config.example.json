@@ -1,0 +1,26 @@
+{
+  "as_of": "YYYY-MM-DD",
+  "paper_sources": [
+    {
+      "conference": "CVPR",
+      "year": 2027,
+      "url": "OFFICIAL_PAPER_LIST_URL",
+      "parser": "cvf"
+    }
+  ],
+  "presentation_sources": [
+    {
+      "conference": "CVPR",
+      "year": 2027,
+      "presentation": "oral",
+      "url": "OFFICIAL_PRESENTATION_PAGE_URL"
+    }
+  ],
+  "status_overrides": [
+    {
+      "conference": "CVPR",
+      "year": 2027,
+      "status": "available"
+    }
+  ]
+}

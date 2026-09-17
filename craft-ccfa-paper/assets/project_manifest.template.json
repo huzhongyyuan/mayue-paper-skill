@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "project_id": "TODO",
+  "title": "TODO",
+  "venue": {
+    "name": "TODO",
+    "track": "main",
+    "paper_type": "empirical",
+    "rules_url": "TODO",
+    "rules_accessed": "TODO-YYYY-MM-DD",
+    "deadline": "TODO",
+    "page_budget": "TODO"
+  },
+  "confidentiality": {
+    "classification": "unpublished",
+    "external_services_authorized": false,
+    "notes": "Keep unpublished content local unless authorization is recorded."
+  },
+  "story": {
+    "problem": "TODO",
+    "one_sentence_contribution": "TODO",
+    "intended_takeaway": "TODO",
+    "non_goals": []
+  },
+  "artifacts": {
+    "code": [],
+    "configs": [],
+    "raw_results": [],
+    "logs": [],
+    "drafts": [],
+    "bibliography": [],
+    "compiled_pdfs": []
+  },
+  "status": "draft",
+  "accountable_human_approval": false
+}

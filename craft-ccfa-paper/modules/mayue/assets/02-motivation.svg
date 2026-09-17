@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img">
+<title>02 / Diagnose two factors separately</title><desc>Controlled-comparison layout · all sample panels below are placeholders, not generated results Original editable conceptual template; no experimental results.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#65758a"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#24354a}.body{font-size:18px}.small{font-size:15px;fill:#65758a}.label{font-size:20px;font-weight:600}</style>
+<rect width="1200" height="670" fill="white"/>
+<text x="32" y="43" font-size="27" font-weight="700" text-anchor="start">02 / Diagnose two factors separately</text>
+<text x="32" y="72" font-size="16" font-weight="400" text-anchor="start" style="fill:#65758a">Controlled-comparison layout · all sample panels below are placeholders, not generated results</text>
+<rect x="28" y="102" width="557" height="490" rx="10" fill="#fcfdff" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="48" y="137" font-size="21" font-weight="700" text-anchor="start">A  Factor A sweep</text>
+<text x="48" y="169" font-size="17" font-weight="400" text-anchor="start">Vary: input resolution</text>
+<text x="48" y="196" font-size="15" font-weight="400" text-anchor="start" style="fill:#65758a">Fix: expansion ratio, model, input, seed</text>
+<text x="127" y="240" font-size="17" font-weight="600" text-anchor="middle">Level 1</text>
+<rect x="48" y="256" width="157" height="145" rx="10" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="126.5" y="320" font-size="14" font-weight="600" text-anchor="middle">REAL SAMPLE</text>
+<text x="126.5" y="346" font-size="14" font-weight="400" text-anchor="middle" style="fill:#65758a">to be inserted</text>
+<rect x="48" y="416" width="157" height="63" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="126.5" y="453" font-size="14" font-weight="400" text-anchor="middle">Matched crop</text>
+<text x="303" y="240" font-size="17" font-weight="600" text-anchor="middle">Level 2</text>
+<rect x="224" y="256" width="157" height="145" rx="10" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="302.5" y="320" font-size="14" font-weight="600" text-anchor="middle">REAL SAMPLE</text>
+<text x="302.5" y="346" font-size="14" font-weight="400" text-anchor="middle" style="fill:#65758a">to be inserted</text>
+<rect x="224" y="416" width="157" height="63" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="302.5" y="453" font-size="14" font-weight="400" text-anchor="middle">Matched crop</text>
+<text x="479" y="240" font-size="17" font-weight="600" text-anchor="middle">Level 3</text>
+<rect x="400" y="256" width="157" height="145" rx="10" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="478.5" y="320" font-size="14" font-weight="600" text-anchor="middle">REAL SAMPLE</text>
+<text x="478.5" y="346" font-size="14" font-weight="400" text-anchor="middle" style="fill:#65758a">to be inserted</text>
+<rect x="400" y="416" width="157" height="63" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="478.5" y="453" font-size="14" font-weight="400" text-anchor="middle">Matched crop</text>
+<text x="48" y="517" font-size="16" font-weight="400" text-anchor="start">Observe: define an error before comparing samples.</text>
+<text x="48" y="547" font-size="15" font-weight="400" text-anchor="start" style="fill:#65758a">Report: protocol, metric, repetitions and uncertainty.</text>
+<rect x="615" y="102" width="557" height="490" rx="10" fill="#fcfdff" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="635" y="137" font-size="21" font-weight="700" text-anchor="start">B  Factor B sweep</text>
+<text x="635" y="169" font-size="17" font-weight="400" text-anchor="start">Vary: expansion ratio</text>
+<text x="635" y="196" font-size="15" font-weight="400" text-anchor="start" style="fill:#65758a">Fix: input resolution, model, input, seed</text>
+<text x="714" y="240" font-size="17" font-weight="600" text-anchor="middle">Level 1</text>
+<rect x="635" y="256" width="157" height="145" rx="10" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="713.5" y="320" font-size="14" font-weight="600" text-anchor="middle">REAL SAMPLE</text>
+<text x="713.5" y="346" font-size="14" font-weight="400" text-anchor="middle" style="fill:#65758a">to be inserted</text>
+<rect x="635" y="416" width="157" height="63" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="713.5" y="453" font-size="14" font-weight="400" text-anchor="middle">Matched crop</text>
+<text x="890" y="240" font-size="17" font-weight="600" text-anchor="middle">Level 2</text>
+<rect x="811" y="256" width="157" height="145" rx="10" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="889.5" y="320" font-size="14" font-weight="600" text-anchor="middle">REAL SAMPLE</text>
+<text x="889.5" y="346" font-size="14" font-weight="400" text-anchor="middle" style="fill:#65758a">to be inserted</text>
+<rect x="811" y="416" width="157" height="63" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="889.5" y="453" font-size="14" font-weight="400" text-anchor="middle">Matched crop</text>
+<text x="1066" y="240" font-size="17" font-weight="600" text-anchor="middle">Level 3</text>
+<rect x="987" y="256" width="157" height="145" rx="10" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1065.5" y="320" font-size="14" font-weight="600" text-anchor="middle">REAL SAMPLE</text>
+<text x="1065.5" y="346" font-size="14" font-weight="400" text-anchor="middle" style="fill:#65758a">to be inserted</text>
+<rect x="987" y="416" width="157" height="63" rx="10" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1065.5" y="453" font-size="14" font-weight="400" text-anchor="middle">Matched crop</text>
+<text x="635" y="517" font-size="16" font-weight="400" text-anchor="start">Observe: define an error before comparing samples.</text>
+<text x="635" y="547" font-size="15" font-weight="400" text-anchor="start" style="fill:#65758a">Report: protocol, metric, repetitions and uncertainty.</text>
+<text x="32" y="627" font-size="17" font-weight="400" text-anchor="start">A diagnostic figure supports a mechanism only to the extent that the variables and evidence isolate it.</text>
+<text x="32" y="648" font-size="14" font-weight="400" text-anchor="start" style="fill:#65758a">STRUCTURAL TEMPLATE · replace labels and paths with verified method details</text>
+</svg>

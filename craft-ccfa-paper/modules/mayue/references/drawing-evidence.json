@@ -1,0 +1,816 @@
+{
+  "pose": {
+    "source": "https://arxiv.org/src/2304.01186v2",
+    "archive_sha256": "4b10fedbac57d8f86f0622c01f2de734da9407b9800a3f6e9de30bb787d3f7f5",
+    "figure_metadata": [
+      {
+        "file": "images/result7.pdf",
+        "bytes": 2749602,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本13.5（版号22G74） Quartz PDFContext",
+          "creationDate": "D:20230816045552Z00'00'",
+          "modDate": "D:20230816045552Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/contrast_contrl.pdf",
+        "bytes": 1151164,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本11.4（版号20F71） Quartz PDFContext",
+          "creationDate": "D:20230807092535Z00'00'",
+          "modDate": "D:20230807092535Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/dataset.pdf",
+        "bytes": 720212,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本11.4（版号20F71） Quartz PDFContext",
+          "creationDate": "D:20230808040223Z00'00'",
+          "modDate": "D:20230808040223Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/teaser4.pdf",
+        "bytes": 4714555,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本13.5（版号22G74） Quartz PDFContext",
+          "creationDate": "D:20230816032627Z00'00'",
+          "modDate": "D:20230816032627Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/duoren.pdf",
+        "bytes": 943515,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本11.4（版号20F71） Quartz PDFContext",
+          "creationDate": "D:20230807065034Z00'00'",
+          "modDate": "D:20230807065034Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/abla_1.pdf",
+        "bytes": 1020233,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本11.4（版号20F71） Quartz PDFContext",
+          "creationDate": "D:20230807092523Z00'00'",
+          "modDate": "D:20230807092523Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/framework2.pdf",
+        "bytes": 554948,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本11.4（版号20F71） Quartz PDFContext",
+          "creationDate": "D:20230808114714Z00'00'",
+          "modDate": "D:20230808114714Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/compare4.pdf",
+        "bytes": 2680910,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本11.4（版号20F71） Quartz PDFContext",
+          "creationDate": "D:20230807131039Z00'00'",
+          "modDate": "D:20230807131039Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      }
+    ],
+    "selected_figure_fonts": {
+      "images/framework2.pdf": [
+        "AAAAAB+Chalkboard",
+        "AAAAAC+Chalkboard",
+        "AAAAAE+AppleColorEmoji",
+        "AAAAAF+Chalkboard",
+        "AAAAAH+AppleColorEmoji",
+        "AAAAAJ+CambriaMath",
+        "AAAAAL+CambriaMath",
+        "AAAAAM+Chalkboard",
+        "AAAAAN+BradleyHandITCTT-Bold",
+        "AAAAAP+AppleColorEmoji",
+        "AAAAAR+CambriaMath",
+        "AAAAAS+BradleyHandITCTT-Bold",
+        "AAAAAU+CambriaMath",
+        "AAAAAW+CambriaMath"
+      ]
+    }
+  },
+  "emoji": {
+    "source": "https://arxiv.org/src/2406.01900v3",
+    "archive_sha256": "edb72a691384482bd2c42ecf8dcb6ef3db209d17633687d46eca200049647223",
+    "figure_metadata": [
+      {
+        "file": "images/emojibench.pdf",
+        "bytes": 1571449,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240517163744Z00'00'",
+          "modDate": "D:20240517163744Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/teaser_0501.pdf",
+        "bytes": 4070010,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240501103651Z00'00'",
+          "modDate": "D:20240501103651Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/ffgloss.pdf",
+        "bytes": 2435919,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240519154828Z00'00'",
+          "modDate": "D:20240519154828Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/ffg_loss.pdf",
+        "bytes": 930258,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240518133453Z00'00'",
+          "modDate": "D:20240518133453Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/logo.pdf",
+        "bytes": 15991,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240507014404Z00'00'",
+          "modDate": "D:20240507014404Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/comp.pdf",
+        "bytes": 4140622,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240520023711Z00'00'",
+          "modDate": "D:20240520023711Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/ablation_ffgloss.pdf",
+        "bytes": 930313,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240518083257Z00'00'",
+          "modDate": "D:20240518083257Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/framework_0520.pdf",
+        "bytes": 3364059,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240520043544Z00'00'",
+          "modDate": "D:20240520043544Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/lmk.pdf",
+        "bytes": 672841,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240518074552Z00'00'",
+          "modDate": "D:20240518074552Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/appendix_1.pdf",
+        "bytes": 4587283,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240519080055Z00'00'",
+          "modDate": "D:20240519080055Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/appendix_2.pdf",
+        "bytes": 4638638,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240519110149Z00'00'",
+          "modDate": "D:20240519110149Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/teaser.pdf",
+        "bytes": 4069981,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240522112646Z00'00'",
+          "modDate": "D:20240522112646Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      }
+    ],
+    "selected_figure_fonts": {
+      "images/framework_0520.pdf": [
+        "AAAAAB+ChalkboardSE-Regular",
+        "AAAAAC+ChalkboardSE-Regular",
+        "AAAAAD+ChalkboardSE-Regular",
+        "AAAAAF+AppleColorEmoji",
+        "AAAAAH+AppleColorEmoji",
+        "AAAAAI+ChalkboardSE-Regular"
+      ]
+    }
+  },
+  "motion": {
+    "source": "https://arxiv.org/src/2506.05207v4",
+    "archive_sha256": "c17eeaffaa8f812483daa00c47428457e00d22f4d8c19783edbfe89bdee754ab",
+    "figure_metadata": [
+      {
+        "file": "images/intro_0919.pdf",
+        "bytes": 1809970,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本15.5（版号24F74） Quartz PDFContext",
+          "creationDate": "D:20250921075142Z00'00'",
+          "modDate": "D:20250921075142Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/rope4.pdf",
+        "bytes": 3389393,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20250515161014Z00'00'",
+          "modDate": "D:20250515161014Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/ablation.pdf",
+        "bytes": 1602223,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20250515122117Z00'00'",
+          "modDate": "D:20250515122117Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/framework0921.pdf",
+        "bytes": 791388,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本15.5（版号24F74） Quartz PDFContext",
+          "creationDate": "D:20250921071237Z00'00'",
+          "modDate": "D:20250921071237Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/teasermf.pdf",
+        "bytes": 4634016,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20250503135834Z00'00'",
+          "modDate": "D:20250503135834Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/gallerr_0920.pdf",
+        "bytes": 4436793,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本15.5（版号24F74） Quartz PDFContext",
+          "creationDate": "D:20250920111609Z00'00'",
+          "modDate": "D:20250920111609Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "images/comparsion2.pdf",
+        "bytes": 4521535,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本15.5（版号24F74） Quartz PDFContext",
+          "creationDate": "D:20250920084016Z00'00'",
+          "modDate": "D:20250920084016Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      }
+    ],
+    "selected_figure_fonts": {
+      "images/framework0921.pdf": [
+        "AAAAAB+ChalkboardSE-Regular",
+        "AAAAAD+AppleColorEmoji",
+        "AAAAAE+ChalkboardSE-Regular",
+        "AAAAAG+AppleColorEmoji",
+        "AAAAAH+SegoePrint-Bold",
+        "AAAAAJ+AppleColorEmoji",
+        "AAAAAL+SegoeUIBlack-Italic",
+        "AAAAAM+ChalkboardSE-Regular",
+        "AAAAAO+AppleColorEmoji"
+      ]
+    }
+  },
+  "canvas": {
+    "source": "https://arxiv.org/src/2409.01055v1",
+    "archive_sha256": "d94a107abf23fae525de54414fdd4be7921a58916909e0c203f4df7742638e50",
+    "figure_metadata": [
+      {
+        "file": "figures/train.pdf",
+        "bytes": 1277464,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.5（版号23F79） Quartz PDFContext",
+          "creationDate": "D:20240816101028Z00'00'",
+          "modDate": "D:20240816101028Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/overlap.pdf",
+        "bytes": 3614092,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.5（版号23F79） Quartz PDFContext",
+          "creationDate": "D:20240816053031Z00'00'",
+          "modDate": "D:20240816053031Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/davis.pdf",
+        "bytes": 3422361,
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "WPS 演示",
+          "producer": "macOS 版本14.5（版号23F79） Quartz PDFContext",
+          "creationDate": "D:20240815151452+08'00'",
+          "modDate": "D:20240815151452+08'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/infer-supp.pdf",
+        "bytes": 336882,
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "",
+          "creationDate": "D:20240816083515+00'00'",
+          "modDate": "D:20240816083515+00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/motivation_ratio.pdf",
+        "bytes": 558247,
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "PowerPoint 演示文稿",
+          "author": "T202629",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® LTSC",
+          "producer": "Microsoft® PowerPoint® LTSC",
+          "creationDate": "D:20240803174958+08'00'",
+          "modDate": "D:20240803174958+08'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/show.pdf",
+        "bytes": 14857,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "Matplotlib v3.7.5, https://matplotlib.org",
+          "producer": "Matplotlib pdf backend v3.7.5",
+          "creationDate": "D:20240816164144+08'00'",
+          "modDate": "",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/teaser_outpainting.pdf",
+        "bytes": 4654173,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240709070856Z00'00'",
+          "modDate": "D:20240709070856Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/ablation.pdf",
+        "bytes": 824181,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "Edited with https://pdfresizer.com",
+          "producer": "pdfTeX-1.40.24",
+          "creationDate": "D:20240724053124+02'00'",
+          "modDate": "D:20240724053124+02'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/panda.pdf",
+        "bytes": 4388025,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "Edited with https://pdfresizer.com",
+          "producer": "pdfTeX-1.40.24",
+          "creationDate": "D:20240719054308+02'00'",
+          "modDate": "D:20240719054308+02'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/intro.pdf",
+        "bytes": 4368967,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240728041138Z00'00'",
+          "modDate": "D:20240728041138Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/user.pdf",
+        "bytes": 14927,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "Matplotlib v3.7.5, https://matplotlib.org",
+          "producer": "Matplotlib pdf backend v3.7.5",
+          "creationDate": "D:20240815223738+08'00'",
+          "modDate": "",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/more.pdf",
+        "bytes": 3313041,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240820025959Z00'00'",
+          "modDate": "D:20240820025959Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/bus.pdf",
+        "bytes": 493944,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "Edited with https://pdfresizer.com",
+          "producer": "pdfTeX-1.40.24",
+          "creationDate": "D:20240718085335+02'00'",
+          "modDate": "D:20240718085335+02'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/teaser_first.pdf",
+        "bytes": 1962539,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "Edited with https://pdfresizer.com",
+          "producer": "pdfTeX-1.40.24",
+          "creationDate": "D:20240722083624+02'00'",
+          "modDate": "D:20240722083624+02'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/outpainting.pdf",
+        "bytes": 2677658,
+        "metadata": {
+          "format": "PDF 1.3",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "",
+          "producer": "macOS 版本14.0（版号23A344） Quartz PDFContext",
+          "creationDate": "D:20240820023942Z00'00'",
+          "modDate": "D:20240820023942Z00'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      {
+        "file": "figures/infer.pdf",
+        "bytes": 503042,
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "PowerPoint 演示文稿",
+          "author": "ma yue",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® LTSC",
+          "producer": "Microsoft® PowerPoint® LTSC",
+          "creationDate": "D:20240811151347+08'00'",
+          "modDate": "D:20240811151347+08'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      }
+    ],
+    "selected_figure_fonts": {
+      "figures/infer.pdf": [
+        "ArialMT"
+      ],
+      "figures/motivation_ratio.pdf": [
+        "ArialMT",
+        "BCDEEE+CambriaMath"
+      ],
+      "figures/davis.pdf": [
+        "FVZGZT+ArialMT"
+      ],
+      "figures/show.pdf": [
+        "BMQQDV+DejaVuSans"
+      ],
+      "figures/user.pdf": [
+        "BMQQDV+DejaVuSans"
+      ]
+    }
+  }
+}

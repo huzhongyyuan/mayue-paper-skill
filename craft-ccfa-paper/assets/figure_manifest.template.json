@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "figures": [
+    {
+      "figure_id": "F001",
+      "title": "TODO",
+      "reader_question": "TODO",
+      "intended_inference": "TODO",
+      "claim_ids": ["C001"],
+      "evidence_ids": [],
+      "kind": "plot",
+      "source_paths": [],
+      "generator_path": "TODO",
+      "outputs": [],
+      "editable_outputs": [],
+      "uncertainty": "TODO",
+      "caption_status": "draft",
+      "semantic_review": "pending",
+      "visual_review": "pending"
+    }
+  ]
+}

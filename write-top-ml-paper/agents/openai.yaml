@@ -1,0 +1,4 @@
+interface:
+  display_name: "顶会论文写作 · 统一版入口"
+  short_description: "进入统一 CCF-A 流程，完成顶会论文写作、改稿、图表和整篇排版"
+  default_prompt: "使用 $write-top-ml-paper，按统一 CCF-A 流程修改我的章节、图表和版面，并保留主张与证据的一致性。"

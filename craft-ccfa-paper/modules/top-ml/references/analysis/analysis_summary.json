@@ -1,0 +1,876 @@
+{
+  "corpus_records": 25421,
+  "sample_requested": 68,
+  "sample_succeeded": 55,
+  "sample_failed": 13,
+  "title_style": {
+    "all": {
+      "count": 25421,
+      "word_count": {
+        "n": 25421,
+        "mean": 9.51,
+        "median": 9,
+        "p25": 8,
+        "p75": 11
+      },
+      "colon_pct": 59.92,
+      "question_pct": 1.99,
+      "acronym_prefix_pct": 40.12
+    },
+    "poster": {
+      "count": 22829,
+      "word_count": {
+        "n": 22829,
+        "mean": 9.51,
+        "median": 9,
+        "p25": 8,
+        "p75": 11
+      },
+      "colon_pct": 60.01,
+      "question_pct": 1.88,
+      "acronym_prefix_pct": 40.41
+    },
+    "poster_only": {
+      "count": 22829,
+      "word_count": {
+        "n": 22829,
+        "mean": 9.51,
+        "median": 9,
+        "p25": 8,
+        "p75": 11
+      },
+      "colon_pct": 60.01,
+      "question_pct": 1.88,
+      "acronym_prefix_pct": 40.41
+    },
+    "CVPR-2025": {
+      "count": 2871,
+      "word_count": {
+        "n": 2871,
+        "mean": 9.7,
+        "median": 10,
+        "p25": 8.0,
+        "p75": 11.0
+      },
+      "colon_pct": 66.77,
+      "question_pct": 1.15,
+      "acronym_prefix_pct": 51.06
+    },
+    "oral": {
+      "count": 658,
+      "word_count": {
+        "n": 658,
+        "mean": 9.36,
+        "median": 9.0,
+        "p25": 7.0,
+        "p75": 11.0
+      },
+      "colon_pct": 58.66,
+      "question_pct": 3.19,
+      "acronym_prefix_pct": 38.15
+    },
+    "priority": {
+      "count": 2592,
+      "word_count": {
+        "n": 2592,
+        "mean": 9.53,
+        "median": 9.0,
+        "p25": 8.0,
+        "p75": 11.0
+      },
+      "colon_pct": 59.1,
+      "question_pct": 2.97,
+      "acronym_prefix_pct": 37.5
+    },
+    "CVPR-2026": {
+      "count": 4068,
+      "word_count": {
+        "n": 4068,
+        "mean": 9.83,
+        "median": 10.0,
+        "p25": 8.0,
+        "p75": 12.0
+      },
+      "colon_pct": 71.68,
+      "question_pct": 1.06,
+      "acronym_prefix_pct": 53.93
+    },
+    "highlight": {
+      "count": 569,
+      "word_count": {
+        "n": 569,
+        "mean": 9.95,
+        "median": 10,
+        "p25": 8,
+        "p75": 12
+      },
+      "colon_pct": 72.76,
+      "question_pct": 2.11,
+      "acronym_prefix_pct": 53.6
+    },
+    "ICCV-2025": {
+      "count": 2701,
+      "word_count": {
+        "n": 2701,
+        "mean": 9.73,
+        "median": 9,
+        "p25": 8,
+        "p75": 11
+      },
+      "colon_pct": 66.86,
+      "question_pct": 1.22,
+      "acronym_prefix_pct": 52.65
+    },
+    "ICML-2025": {
+      "count": 3330,
+      "word_count": {
+        "n": 3330,
+        "mean": 9.22,
+        "median": 9.0,
+        "p25": 7.0,
+        "p75": 11.0
+      },
+      "colon_pct": 46.73,
+      "question_pct": 3.0,
+      "acronym_prefix_pct": 26.67
+    },
+    "spotlight": {
+      "count": 1365,
+      "word_count": {
+        "n": 1365,
+        "mean": 9.44,
+        "median": 9,
+        "p25": 8,
+        "p75": 11
+      },
+      "colon_pct": 53.63,
+      "question_pct": 3.22,
+      "acronym_prefix_pct": 30.48
+    },
+    "ICML-2026": {
+      "count": 6628,
+      "word_count": {
+        "n": 6628,
+        "mean": 9.42,
+        "median": 9.0,
+        "p25": 8.0,
+        "p75": 11.0
+      },
+      "colon_pct": 58.42,
+      "question_pct": 2.47,
+      "acronym_prefix_pct": 34.26
+    },
+    "NeurIPS-2025": {
+      "count": 5823,
+      "word_count": {
+        "n": 5823,
+        "mean": 9.38,
+        "median": 9,
+        "p25": 8.0,
+        "p75": 11.0
+      },
+      "colon_pct": 54.35,
+      "question_pct": 2.3,
+      "acronym_prefix_pct": 33.61
+    }
+  },
+  "fulltext": {
+    "papers_analyzed": 55,
+    "by_presentation": {
+      "oral": 25,
+      "poster": 15,
+      "highlight": 5,
+      "spotlight": 10
+    },
+    "sections": {
+      "abstract": {
+        "papers": 54,
+        "word_count": {
+          "n": 54,
+          "mean": 192.96,
+          "median": 188.0,
+          "p25": 156.0,
+          "p75": 219.75
+        },
+        "sentence_count": {
+          "n": 54,
+          "mean": 8.04,
+          "median": 7.5,
+          "p25": 7.0,
+          "p75": 9.0
+        },
+        "citation_mentions": {
+          "n": 54,
+          "mean": 0.19,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "figure_mentions": {
+          "n": 54,
+          "mean": 0.04,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "first_person_mentions": {
+          "n": 54,
+          "mean": 3.89,
+          "median": 4.0,
+          "p25": 2.0,
+          "p75": 5.0
+        },
+        "contribution_cues": {
+          "n": 54,
+          "mean": 1.07,
+          "median": 1.0,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "limitation_cues": {
+          "n": 54,
+          "mean": 0.17,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "claim_cues": {
+          "n": 54,
+          "mean": 0.91,
+          "median": 1.0,
+          "p25": 0.0,
+          "p75": 1.0
+        }
+      },
+      "introduction": {
+        "papers": 55,
+        "word_count": {
+          "n": 55,
+          "mean": 1516.89,
+          "median": 893,
+          "p25": 700.0,
+          "p75": 1470.5
+        },
+        "sentence_count": {
+          "n": 55,
+          "mean": 55.49,
+          "median": 33,
+          "p25": 24.0,
+          "p75": 54.0
+        },
+        "citation_mentions": {
+          "n": 55,
+          "mean": 16.36,
+          "median": 10,
+          "p25": 6.5,
+          "p75": 23.5
+        },
+        "figure_mentions": {
+          "n": 55,
+          "mean": 4.4,
+          "median": 2,
+          "p25": 1.0,
+          "p75": 4.0
+        },
+        "first_person_mentions": {
+          "n": 55,
+          "mean": 22.18,
+          "median": 11,
+          "p25": 8.0,
+          "p75": 17.0
+        },
+        "contribution_cues": {
+          "n": 55,
+          "mean": 3,
+          "median": 3,
+          "p25": 1.0,
+          "p75": 4.0
+        },
+        "limitation_cues": {
+          "n": 55,
+          "mean": 1.62,
+          "median": 1,
+          "p25": 0.0,
+          "p75": 2.5
+        },
+        "claim_cues": {
+          "n": 55,
+          "mean": 3.98,
+          "median": 3,
+          "p25": 1.0,
+          "p75": 5.0
+        }
+      },
+      "related_work": {
+        "papers": 31,
+        "word_count": {
+          "n": 31,
+          "mean": 1447.39,
+          "median": 666,
+          "p25": 446.5,
+          "p75": 1421.0
+        },
+        "sentence_count": {
+          "n": 31,
+          "mean": 56.71,
+          "median": 32,
+          "p25": 18.5,
+          "p75": 57.0
+        },
+        "citation_mentions": {
+          "n": 31,
+          "mean": 20.48,
+          "median": 17,
+          "p25": 9.5,
+          "p75": 25.5
+        },
+        "figure_mentions": {
+          "n": 31,
+          "mean": 3.52,
+          "median": 1,
+          "p25": 0.0,
+          "p75": 2.0
+        },
+        "first_person_mentions": {
+          "n": 31,
+          "mean": 17.74,
+          "median": 6,
+          "p25": 3.0,
+          "p75": 23.5
+        },
+        "contribution_cues": {
+          "n": 31,
+          "mean": 1.16,
+          "median": 1,
+          "p25": 0.0,
+          "p75": 2.0
+        },
+        "limitation_cues": {
+          "n": 31,
+          "mean": 1.13,
+          "median": 0,
+          "p25": 0.0,
+          "p75": 2.0
+        },
+        "claim_cues": {
+          "n": 31,
+          "mean": 2.23,
+          "median": 1,
+          "p25": 1.0,
+          "p75": 2.5
+        }
+      },
+      "method": {
+        "papers": 33,
+        "word_count": {
+          "n": 33,
+          "mean": 2190.45,
+          "median": 2199,
+          "p25": 682,
+          "p75": 3531
+        },
+        "sentence_count": {
+          "n": 33,
+          "mean": 86.39,
+          "median": 93,
+          "p25": 23,
+          "p75": 139
+        },
+        "citation_mentions": {
+          "n": 33,
+          "mean": 22.52,
+          "median": 10,
+          "p25": 0,
+          "p75": 41
+        },
+        "figure_mentions": {
+          "n": 33,
+          "mean": 8.73,
+          "median": 5,
+          "p25": 1,
+          "p75": 15
+        },
+        "first_person_mentions": {
+          "n": 33,
+          "mean": 40.12,
+          "median": 31,
+          "p25": 4,
+          "p75": 57
+        },
+        "contribution_cues": {
+          "n": 33,
+          "mean": 2.24,
+          "median": 2,
+          "p25": 0,
+          "p75": 3
+        },
+        "limitation_cues": {
+          "n": 33,
+          "mean": 1.24,
+          "median": 0,
+          "p25": 0,
+          "p75": 2
+        },
+        "claim_cues": {
+          "n": 33,
+          "mean": 3.64,
+          "median": 3,
+          "p25": 0,
+          "p75": 5
+        }
+      },
+      "background": {
+        "papers": 23,
+        "word_count": {
+          "n": 23,
+          "mean": 2746.91,
+          "median": 2431,
+          "p25": 1848.5,
+          "p75": 3797.5
+        },
+        "sentence_count": {
+          "n": 23,
+          "mean": 95.74,
+          "median": 92,
+          "p25": 56.0,
+          "p75": 143.0
+        },
+        "citation_mentions": {
+          "n": 23,
+          "mean": 23.78,
+          "median": 19,
+          "p25": 6.5,
+          "p75": 31.5
+        },
+        "figure_mentions": {
+          "n": 23,
+          "mean": 10.17,
+          "median": 8,
+          "p25": 2.5,
+          "p75": 14.5
+        },
+        "first_person_mentions": {
+          "n": 23,
+          "mean": 44.26,
+          "median": 40,
+          "p25": 22.0,
+          "p75": 63.5
+        },
+        "contribution_cues": {
+          "n": 23,
+          "mean": 2.17,
+          "median": 2,
+          "p25": 1.0,
+          "p75": 4.0
+        },
+        "limitation_cues": {
+          "n": 23,
+          "mean": 1.74,
+          "median": 2,
+          "p25": 0.0,
+          "p75": 2.0
+        },
+        "claim_cues": {
+          "n": 23,
+          "mean": 4.26,
+          "median": 3,
+          "p25": 1.5,
+          "p75": 5.0
+        }
+      },
+      "conclusion": {
+        "papers": 43,
+        "word_count": {
+          "n": 43,
+          "mean": 337.84,
+          "median": 224,
+          "p25": 162.0,
+          "p75": 400.0
+        },
+        "sentence_count": {
+          "n": 43,
+          "mean": 13.4,
+          "median": 10,
+          "p25": 6.5,
+          "p75": 15.0
+        },
+        "citation_mentions": {
+          "n": 43,
+          "mean": 1.6,
+          "median": 0,
+          "p25": 0.0,
+          "p75": 0.5
+        },
+        "figure_mentions": {
+          "n": 43,
+          "mean": 0.88,
+          "median": 0,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "first_person_mentions": {
+          "n": 43,
+          "mean": 6.72,
+          "median": 5,
+          "p25": 3.5,
+          "p75": 9.0
+        },
+        "contribution_cues": {
+          "n": 43,
+          "mean": 0.56,
+          "median": 0,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "limitation_cues": {
+          "n": 43,
+          "mean": 0.86,
+          "median": 1,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "claim_cues": {
+          "n": 43,
+          "mean": 1.02,
+          "median": 0,
+          "p25": 0.0,
+          "p75": 1.0
+        }
+      },
+      "experiments": {
+        "papers": 29,
+        "word_count": {
+          "n": 29,
+          "mean": 1429.48,
+          "median": 1408,
+          "p25": 1053,
+          "p75": 1785
+        },
+        "sentence_count": {
+          "n": 29,
+          "mean": 51.1,
+          "median": 50,
+          "p25": 29,
+          "p75": 65
+        },
+        "citation_mentions": {
+          "n": 29,
+          "mean": 9.52,
+          "median": 3,
+          "p25": 0,
+          "p75": 10
+        },
+        "figure_mentions": {
+          "n": 29,
+          "mean": 7.83,
+          "median": 6,
+          "p25": 0,
+          "p75": 14
+        },
+        "first_person_mentions": {
+          "n": 29,
+          "mean": 24.45,
+          "median": 20,
+          "p25": 8,
+          "p75": 38
+        },
+        "contribution_cues": {
+          "n": 29,
+          "mean": 1.14,
+          "median": 0,
+          "p25": 0,
+          "p75": 1
+        },
+        "limitation_cues": {
+          "n": 29,
+          "mean": 2.45,
+          "median": 1,
+          "p25": 0,
+          "p75": 3
+        },
+        "claim_cues": {
+          "n": 29,
+          "mean": 4.03,
+          "median": 3,
+          "p25": 1,
+          "p75": 6
+        }
+      },
+      "limitations": {
+        "papers": 14,
+        "word_count": {
+          "n": 14,
+          "mean": 247.21,
+          "median": 235.0,
+          "p25": 174.5,
+          "p75": 342.5
+        },
+        "sentence_count": {
+          "n": 14,
+          "mean": 8.43,
+          "median": 9.5,
+          "p25": 8.0,
+          "p75": 10.0
+        },
+        "citation_mentions": {
+          "n": 14,
+          "mean": 0.36,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.75
+        },
+        "figure_mentions": {
+          "n": 14,
+          "mean": 0,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "first_person_mentions": {
+          "n": 14,
+          "mean": 2.36,
+          "median": 2.0,
+          "p25": 0.25,
+          "p75": 2.0
+        },
+        "contribution_cues": {
+          "n": 14,
+          "mean": 0.14,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "limitation_cues": {
+          "n": 14,
+          "mean": 5.14,
+          "median": 3.5,
+          "p25": 2.0,
+          "p75": 9.0
+        },
+        "claim_cues": {
+          "n": 14,
+          "mean": 0.43,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.75
+        }
+      },
+      "theory": {
+        "papers": 14,
+        "word_count": {
+          "n": 14,
+          "mean": 1008.79,
+          "median": 660.0,
+          "p25": 156.25,
+          "p75": 1560.0
+        },
+        "sentence_count": {
+          "n": 14,
+          "mean": 35.14,
+          "median": 21.5,
+          "p25": 3.0,
+          "p75": 42.5
+        },
+        "citation_mentions": {
+          "n": 14,
+          "mean": 10.21,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 9.75
+        },
+        "figure_mentions": {
+          "n": 14,
+          "mean": 0.86,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "first_person_mentions": {
+          "n": 14,
+          "mean": 8.21,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 5.5
+        },
+        "contribution_cues": {
+          "n": 14,
+          "mean": 0.21,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "limitation_cues": {
+          "n": 14,
+          "mean": 2.64,
+          "median": 1.0,
+          "p25": 0.0,
+          "p75": 3.5
+        },
+        "claim_cues": {
+          "n": 14,
+          "mean": 1.43,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        }
+      }
+    },
+    "common_section_orders": [
+      [
+        "abstract > introduction > related_work > method > background > conclusion",
+        2
+      ],
+      [
+        "abstract > introduction > related_work > method > conclusion",
+        2
+      ],
+      [
+        "abstract > introduction > related_work > method > experiments > conclusion",
+        2
+      ],
+      [
+        "abstract > introduction > background > conclusion",
+        2
+      ],
+      [
+        "abstract > introduction > related_work",
+        2
+      ],
+      [
+        "abstract > introduction > conclusion",
+        2
+      ],
+      [
+        "abstract > introduction > method > conclusion",
+        1
+      ],
+      [
+        "abstract > introduction > background > method > limitations > conclusion",
+        1
+      ],
+      [
+        "abstract > introduction > related_work > method > conclusion > theory",
+        1
+      ],
+      [
+        "abstract > introduction > method > experiments > conclusion",
+        1
+      ],
+      [
+        "abstract > introduction > experiments > related_work > conclusion",
+        1
+      ],
+      [
+        "abstract > introduction > related_work > method > background > conclusion > experiments",
+        1
+      ]
+    ]
+  },
+  "failures": [
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Robust Contextual Optimization with Missing Covariates",
+      "presentation": "oral",
+      "pdf_url": "https://openreview.net/pdf?id=37KrsS7g7c",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-ebn6n8p8/paper.pdf', 'https://openreview.net/pdf?id=37KrsS7g7c']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "LASER: Learning Active Sensing for Continuum Field Reconstruction",
+      "presentation": "oral",
+      "pdf_url": "https://openreview.net/pdf?id=hnoSRifw1F",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-b_49ij3p/paper.pdf', 'https://openreview.net/pdf?id=hnoSRifw1F']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Evaluating Robustness of Reasoning Models on Parameterized Logical Problems",
+      "presentation": "oral",
+      "pdf_url": "https://openreview.net/pdf?id=gnLZWOubWa",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-gjgrp33r/paper.pdf', 'https://openreview.net/pdf?id=gnLZWOubWa']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Position: AI Should Facilitate Democratic Deliberation at Scale",
+      "presentation": "oral",
+      "pdf_url": "https://openreview.net/pdf?id=EOmwHHuNLU",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-utv4g55m/paper.pdf', 'https://openreview.net/pdf?id=EOmwHHuNLU']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
+      "presentation": "oral",
+      "pdf_url": "https://openreview.net/pdf?id=vIZz7LvObC",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-c8q08mj8/paper.pdf', 'https://openreview.net/pdf?id=vIZz7LvObC']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Not All Invariants Are Equal: Curating Training Data to Accelerate Program Verification with SLMs",
+      "presentation": "poster",
+      "pdf_url": "https://openreview.net/pdf?id=fS28SOioQd",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-scguly0g/paper.pdf', 'https://openreview.net/pdf?id=fS28SOioQd']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Semi-Supervised Hypothesis Testing by Betting on Predictions",
+      "presentation": "poster",
+      "pdf_url": "https://openreview.net/pdf?id=Vt0tmqhfDM",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-bjmcse12/paper.pdf', 'https://openreview.net/pdf?id=Vt0tmqhfDM']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions",
+      "presentation": "spotlight",
+      "pdf_url": "https://openreview.net/pdf?id=txdOohIkYJ",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-jsz6go3n/paper.pdf', 'https://openreview.net/pdf?id=txdOohIkYJ']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "NonZero: Interaction-Guided Exploration for Multi-Agent Monte Carlo Tree Search",
+      "presentation": "spotlight",
+      "pdf_url": "https://openreview.net/pdf?id=Jh6gq9QsFa",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-j8etwg5n/paper.pdf', 'https://openreview.net/pdf?id=Jh6gq9QsFa']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning",
+      "presentation": "spotlight",
+      "pdf_url": "https://openreview.net/pdf?id=3ySR3TCMRP",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-1i6wjeyv/paper.pdf', 'https://openreview.net/pdf?id=3ySR3TCMRP']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Predicting the Emergence of Induction Heads in Language Model Pretraining",
+      "presentation": "poster",
+      "pdf_url": "https://openreview.net/pdf?id=50E1hqm6qk",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-17b1fag6/paper.pdf', 'https://openreview.net/pdf?id=50E1hqm6qk']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Matroid Algorithms Under Size-Sensitive Independence Oracles",
+      "presentation": "spotlight",
+      "pdf_url": "https://openreview.net/pdf?id=80Job2F5eb",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-vsvzqbvx/paper.pdf', 'https://openreview.net/pdf?id=80Job2F5eb']' returned non-zero exit status 56."
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Models",
+      "presentation": "spotlight",
+      "pdf_url": "https://openreview.net/pdf?id=TBaUfO9znF",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--compressed', '--retry', '2', '--max-time', '180', '--max-filesize', '52428800', '--output', '/var/folders/ys/zqftn03d54bgv4s7cs8dp1j00000gn/T/top-ml-paper-cws9_4ww/paper.pdf', 'https://openreview.net/pdf?id=TBaUfO9znF']' returned non-zero exit status 56."
+    }
+  ],
+  "method": "Stable stratified sample by venue-year-presentation; PDFs are discarded after feature extraction."
+}

@@ -1,0 +1,646 @@
+{
+  "merged_on": "2026-09-17",
+  "canonical_skill": "craft-ccfa-paper",
+  "compatibility_entries": [
+    "write-top-ml-paper",
+    "mayue-paper-skill",
+    "yue-ma-paper-style"
+  ],
+  "source_entry_sha256": {
+    "craft-ccfa-paper": "b3b77e90b8ca8128b70627114af403967f3cb681f7259ba42ac1b62c241faacc",
+    "write-top-ml-paper": "b10a384d6d26990a1fe5cde76476b007f6e237eb069edf5690b0b8266919e7f2",
+    "mayue-paper-skill": "998c35fafb8fd3fa8b2292ac7dc14866bd437ff3c802ee2145fc367ede09254f",
+    "yue-ma-paper-style": "829c73cbcd6d27960ac3621cfbef976089458f6379ac2ab91cb3029e38b75701"
+  },
+  "copied_resources": [
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "LICENSE.txt",
+      "source_sha256": "0e909d726c9ae139225cdfc6217939652b13d104be2935d8f9b6af1c15a6058c",
+      "destination": "LICENSE.txt",
+      "merged_sha256": "0e909d726c9ae139225cdfc6217939652b13d104be2935d8f9b6af1c15a6058c",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "assets/claims.template.csv",
+      "source_sha256": "0712b3bcc5a6814864e2e7787225210b1e2f99ec3f70b05dfc17f3352c668707",
+      "destination": "assets/claims.template.csv",
+      "merged_sha256": "0712b3bcc5a6814864e2e7787225210b1e2f99ec3f70b05dfc17f3352c668707",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "assets/diagram_spec.example.json",
+      "source_sha256": "9d6f2aa6754c7aae5a4d3c073b1a10e284cc16b206f7b836225b609e76798546",
+      "destination": "assets/diagram_spec.example.json",
+      "merged_sha256": "9d6f2aa6754c7aae5a4d3c073b1a10e284cc16b206f7b836225b609e76798546",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "assets/experiment_registry.template.csv",
+      "source_sha256": "e11e1fc38efd2f19f9e9592e4d74cd41b30cae0ec43fa5e823c39708abe8cde3",
+      "destination": "assets/experiment_registry.template.csv",
+      "merged_sha256": "e11e1fc38efd2f19f9e9592e4d74cd41b30cae0ec43fa5e823c39708abe8cde3",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "assets/figure_manifest.template.json",
+      "source_sha256": "964cd89a7476d754ea05c621a2e779f029761de95ac3abf8f2f613cb887ffa18",
+      "destination": "assets/figure_manifest.template.json",
+      "merged_sha256": "964cd89a7476d754ea05c621a2e779f029761de95ac3abf8f2f613cb887ffa18",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "assets/layout_plan.template.csv",
+      "source_sha256": "8be6266a7b2cf012fa7ed4aafe0cf189fddf30c0c3f3f180f4ae8831aaae273f",
+      "destination": "assets/layout_plan.template.csv",
+      "merged_sha256": "8be6266a7b2cf012fa7ed4aafe0cf189fddf30c0c3f3f180f4ae8831aaae273f",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "assets/project_manifest.template.json",
+      "source_sha256": "956f0dc914c1a98dc22806f64b178bebb05ab1b036d11e8f621508cdd2b150c4",
+      "destination": "assets/project_manifest.template.json",
+      "merged_sha256": "956f0dc914c1a98dc22806f64b178bebb05ab1b036d11e8f621508cdd2b150c4",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/end-to-end-paper-workflow.md",
+      "source_sha256": "47b6d79826892314828176c2aad015451c4a0552bf8ea19e275741d3357892c6",
+      "destination": "references/end-to-end-paper-workflow.md",
+      "merged_sha256": "47b6d79826892314828176c2aad015451c4a0552bf8ea19e275741d3357892c6",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/figure-production.md",
+      "source_sha256": "7987ffd1cf86c4a918e55bec659b11e04593d2cd189553b4cadd2121281aef7d",
+      "destination": "references/figure-production.md",
+      "merged_sha256": "7987ffd1cf86c4a918e55bec659b11e04593d2cd189553b4cadd2121281aef7d",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/manuscript-layout.md",
+      "source_sha256": "d13df9e27e7e85f97119058204807842dd05ddb2665ab88e9e23fb23da9177e1",
+      "destination": "references/manuscript-layout.md",
+      "merged_sha256": "d13df9e27e7e85f97119058204807842dd05ddb2665ab88e9e23fb23da9177e1",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/ppt-diagrams.md",
+      "source_sha256": "665077b38df778299c4584a9081f85b13cca2a9e60f88519c3aab5a7e970b520",
+      "destination": "references/ppt-diagrams.md",
+      "merged_sha256": "665077b38df778299c4584a9081f85b13cca2a9e60f88519c3aab5a7e970b520",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/review-gates.md",
+      "source_sha256": "e47436db49773a97bdd446308b6e5e68a4e5b83e6c96a2571ac49a0376cb55f7",
+      "destination": "references/review-gates.md",
+      "merged_sha256": "e47436db49773a97bdd446308b6e5e68a4e5b83e6c96a2571ac49a0376cb55f7",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/section-writing.md",
+      "source_sha256": "e69b1804bd29a591a28a8784cde5399d1487140ce8f4488efd0ee1835c50f96b",
+      "destination": "references/section-writing.md",
+      "merged_sha256": "affd4817eddddfef03682aef83c5218e33fb53423803ba0e0a487ecc06b53cdb",
+      "unchanged": false
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "references/source-evaluation.md",
+      "source_sha256": "dc1da249bc63001594400daf0c931462b5080695df2385354b343ecc84935765",
+      "destination": "references/source-evaluation.md",
+      "merged_sha256": "dc1da249bc63001594400daf0c931462b5080695df2385354b343ecc84935765",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "scripts/audit_project.py",
+      "source_sha256": "e97bb40983a1b519c4e7e95a26a487c07fabad9bd9dc142812ad219b526b4727",
+      "destination": "scripts/audit_project.py",
+      "merged_sha256": "e97bb40983a1b519c4e7e95a26a487c07fabad9bd9dc142812ad219b526b4727",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "scripts/init_project.py",
+      "source_sha256": "c4d7e26fe42ef014712a00e376292b4c4758cc0d2242aebb9462076e2c78707a",
+      "destination": "scripts/init_project.py",
+      "merged_sha256": "c4d7e26fe42ef014712a00e376292b4c4758cc0d2242aebb9462076e2c78707a",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "scripts/render_diagram_pptx.mjs",
+      "source_sha256": "a94fd0a1e8070dc4ad9773dec31207cd292098c56f2d7bee618ec711091ce791",
+      "destination": "scripts/render_diagram_pptx.mjs",
+      "merged_sha256": "a94fd0a1e8070dc4ad9773dec31207cd292098c56f2d7bee618ec711091ce791",
+      "unchanged": true
+    },
+    {
+      "source_skill": "craft-ccfa-paper",
+      "source_path": "scripts/render_diagram_svg.py",
+      "source_sha256": "3b74886e818276cb32f3d104e4298e5356603b7aafe2403fb1267e0d653fea05",
+      "destination": "scripts/render_diagram_svg.py",
+      "merged_sha256": "3b74886e818276cb32f3d104e4298e5356603b7aafe2403fb1267e0d653fea05",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/analysis/analysis_summary.json",
+      "source_sha256": "9ac25a14104620084c1282778b7fa562acedec764f1ba0240ed2ff8adbdbf2da",
+      "destination": "modules/top-ml/references/analysis/analysis_summary.json",
+      "merged_sha256": "9ac25a14104620084c1282778b7fa562acedec764f1ba0240ed2ff8adbdbf2da",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/analysis/paper_analysis.jsonl",
+      "source_sha256": "1281330665b814d362994fea3bf0b1d4c055cf9d0806a35c3a0a331b037ba841",
+      "destination": "modules/top-ml/references/analysis/paper_analysis.jsonl",
+      "merged_sha256": "1281330665b814d362994fea3bf0b1d4c055cf9d0806a35c3a0a331b037ba841",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/corpus/manifest.json",
+      "source_sha256": "968b92b3b6f2987ae3a77bf7a1ef0e503083b8330929a58832df121c91167923",
+      "destination": "modules/top-ml/references/corpus/manifest.json",
+      "merged_sha256": "968b92b3b6f2987ae3a77bf7a1ef0e503083b8330929a58832df121c91167923",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/corpus/papers.jsonl.gz",
+      "source_sha256": "e0f93a676eb814418409e2c464a018b3b8550d44a47a35a91931c4de01dc0482",
+      "destination": "modules/top-ml/references/corpus/papers.jsonl.gz",
+      "merged_sha256": "e0f93a676eb814418409e2c464a018b3b8550d44a47a35a91931c4de01dc0482",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/corpus/source-config.example.json",
+      "source_sha256": "450ee77bf02c37d8d1ba18dc06dd708c8259ddf101e7aac1cda90d8ecc392a30",
+      "destination": "modules/top-ml/references/corpus/source-config.example.json",
+      "merged_sha256": "450ee77bf02c37d8d1ba18dc06dd708c8259ddf101e7aac1cda90d8ecc392a30",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/evidence-base.md",
+      "source_sha256": "ddcac0ffe5b701d07f6777545c502c24aaf292c03955a87c0bc95d915a5fa3e6",
+      "destination": "modules/top-ml/references/evidence-base.md",
+      "merged_sha256": "ddcac0ffe5b701d07f6777545c502c24aaf292c03955a87c0bc95d915a5fa3e6",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/figure-playbook.md",
+      "source_sha256": "01782843c0fac380aaced259a8da69b272f49a96f092f3816eb814ca82b9c0d7",
+      "destination": "modules/top-ml/references/figure-playbook.md",
+      "merged_sha256": "01782843c0fac380aaced259a8da69b272f49a96f092f3816eb814ca82b9c0d7",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/layout-playbook.md",
+      "source_sha256": "2f881e277890a755b3b3679372612f9890dfac88d992fd2cc5406b15b508de37",
+      "destination": "modules/top-ml/references/layout-playbook.md",
+      "merged_sha256": "2f881e277890a755b3b3679372612f9890dfac88d992fd2cc5406b15b508de37",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/review-rubric.md",
+      "source_sha256": "8d3a81af8c50911da4144b7f376136fc7933b917207e03ce1a64b0412460eafb",
+      "destination": "modules/top-ml/references/review-rubric.md",
+      "merged_sha256": "8d3a81af8c50911da4144b7f376136fc7933b917207e03ce1a64b0412460eafb",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "references/section-playbook.md",
+      "source_sha256": "4ee15020b8c24b6a05164c1404538930b383d3ba3ceb6f982da2c2d0c3202710",
+      "destination": "modules/top-ml/references/section-playbook.md",
+      "merged_sha256": "4ee15020b8c24b6a05164c1404538930b383d3ba3ceb6f982da2c2d0c3202710",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "scripts/analyze_corpus.py",
+      "source_sha256": "9f2dcf4f2dca93df36473889ed87a52fcf29f9f482d0532b3f8f7e612b127c6c",
+      "destination": "modules/top-ml/scripts/analyze_corpus.py",
+      "merged_sha256": "9f2dcf4f2dca93df36473889ed87a52fcf29f9f482d0532b3f8f7e612b127c6c",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "scripts/analyze_full_corpus.py",
+      "source_sha256": "d5db4190c3835e5cdaacb171880eac2342e8264b7011b5db30ddc6b2eddd875a",
+      "destination": "modules/top-ml/scripts/analyze_full_corpus.py",
+      "merged_sha256": "d5db4190c3835e5cdaacb171880eac2342e8264b7011b5db30ddc6b2eddd875a",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "scripts/collect_corpus.py",
+      "source_sha256": "bb28f64c0039b4c7b2defd33be28815f9596dd6e11334fa3d1be9c8514b38715",
+      "destination": "modules/top-ml/scripts/collect_corpus.py",
+      "merged_sha256": "bb28f64c0039b4c7b2defd33be28815f9596dd6e11334fa3d1be9c8514b38715",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "scripts/query_corpus.py",
+      "source_sha256": "f79e86729cf5b3b61b7c1dac0754eb4d023ca6f4d6555969301839e8e4b43e89",
+      "destination": "modules/top-ml/scripts/query_corpus.py",
+      "merged_sha256": "f79e86729cf5b3b61b7c1dac0754eb4d023ca6f4d6555969301839e8e4b43e89",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "scripts/report_full_corpus.py",
+      "source_sha256": "8f33f300a316dd082e5ad76eeb86e19d9c4e670ff2212fe6be878d981f60f5ea",
+      "destination": "modules/top-ml/scripts/report_full_corpus.py",
+      "merged_sha256": "8f33f300a316dd082e5ad76eeb86e19d9c4e670ff2212fe6be878d981f60f5ea",
+      "unchanged": true
+    },
+    {
+      "source_skill": "write-top-ml-paper",
+      "source_path": "scripts/requirements-full-corpus.txt",
+      "source_sha256": "5d5fe5b8dc66bed837567c652b695faa9212364ec3f6ba757e9b33978109d1d8",
+      "destination": "modules/top-ml/scripts/requirements-full-corpus.txt",
+      "merged_sha256": "5d5fe5b8dc66bed837567c652b695faa9212364ec3f6ba757e9b33978109d1d8",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/01-framework.svg",
+      "source_sha256": "423019f2878c1ca1ced95738d5a18087f343cc61bcceaa89f93120c1e1f392f5",
+      "destination": "modules/mayue/assets/01-framework.svg",
+      "merged_sha256": "423019f2878c1ca1ced95738d5a18087f343cc61bcceaa89f93120c1e1f392f5",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/02-motivation.svg",
+      "source_sha256": "35d18ca73663a5c03dd47f622a4b74bec5950c3a8cb42be44816ee4b61788915",
+      "destination": "modules/mayue/assets/02-motivation.svg",
+      "merged_sha256": "35d18ca73663a5c03dd47f622a4b74bec5950c3a8cb42be44816ee4b61788915",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/03-window-alignment.svg",
+      "source_sha256": "f1e1cb2108fdde9b630fc474e4f6372b1334a17744c173b13023a0d31d6fa19e",
+      "destination": "modules/mayue/assets/03-window-alignment.svg",
+      "merged_sha256": "f1e1cb2108fdde9b630fc474e4f6372b1334a17744c173b13023a0d31d6fa19e",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/04-streaming.svg",
+      "source_sha256": "200c22088839e4429cd49826e8cf933eb00f5a16647d2a8dc4e31924a8cd710a",
+      "destination": "modules/mayue/assets/04-streaming.svg",
+      "merged_sha256": "200c22088839e4429cd49826e8cf933eb00f5a16647d2a8dc4e31924a8cd710a",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/aku-framework.webp",
+      "source_sha256": "c9ddd32272b69d0788ce4a9b49b2fe30a2f307175fed9936f2dbb9678313bc60",
+      "destination": "modules/mayue/assets/study-figures/aku-framework.webp",
+      "merged_sha256": "c9ddd32272b69d0788ce4a9b49b2fe30a2f307175fed9936f2dbb9678313bc60",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/calligrapher-core.webp",
+      "source_sha256": "d83e974e30d41f2e42a91f3f4060c098f837a2859a8d7d51109e62c9fcf89907",
+      "destination": "modules/mayue/assets/study-figures/calligrapher-core.webp",
+      "merged_sha256": "d83e974e30d41f2e42a91f3f4060c098f837a2859a8d7d51109e62c9fcf89907",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/canvas-motivation_ratio.webp",
+      "source_sha256": "291304a1157d92d1df0f2855273eb8f8e4eaceff9f0c32e913cac3c249acd741",
+      "destination": "modules/mayue/assets/study-figures/canvas-motivation_ratio.webp",
+      "merged_sha256": "291304a1157d92d1df0f2855273eb8f8e4eaceff9f0c32e913cac3c249acd741",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/canvas-train.webp",
+      "source_sha256": "15ce5c7343786a189312a71e0c7d8bb322f7597908a2d6fae9342b8e6225faa3",
+      "destination": "modules/mayue/assets/study-figures/canvas-train.webp",
+      "merged_sha256": "15ce5c7343786a189312a71e0c7d8bb322f7597908a2d6fae9342b8e6225faa3",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/click-fig.webp",
+      "source_sha256": "1f1375d7bb26ee4566dba3d9bd3e496e2fdad83afb55c747afc0db624bf35114",
+      "destination": "modules/mayue/assets/study-figures/click-fig.webp",
+      "merged_sha256": "1f1375d7bb26ee4566dba3d9bd3e496e2fdad83afb55c747afc0db624bf35114",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/color-core.webp",
+      "source_sha256": "adcf9d5ebf168ccd34b5e7f227e0caaaba7fe7e7512e93ed078a523ebbf16441",
+      "destination": "modules/mayue/assets/study-figures/color-core.webp",
+      "merged_sha256": "adcf9d5ebf168ccd34b5e7f227e0caaaba7fe7e7512e93ed078a523ebbf16441",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/cove-fig.webp",
+      "source_sha256": "671c01c9738064b13c4e9691345a9531b3500d988138f52177e26b21eccd59ff",
+      "destination": "modules/mayue/assets/study-figures/cove-fig.webp",
+      "merged_sha256": "671c01c9738064b13c4e9691345a9531b3500d988138f52177e26b21eccd59ff",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/creation-fig.webp",
+      "source_sha256": "5a54ed2a56b70607a8bc7689fc78686bfafb824cd133a45a3fe436dccf31ff76",
+      "destination": "modules/mayue/assets/study-figures/creation-fig.webp",
+      "merged_sha256": "5a54ed2a56b70607a8bc7689fc78686bfafb824cd133a45a3fe436dccf31ff76",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/dit4edit-fig.webp",
+      "source_sha256": "7917d43406f55701b3688b80ad6b3df30b3cff021953ff1af1f104ff451cfb1f",
+      "destination": "modules/mayue/assets/study-figures/dit4edit-fig.webp",
+      "merged_sha256": "7917d43406f55701b3688b80ad6b3df30b3cff021953ff1af1f104ff451cfb1f",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/easyvfx-fig.webp",
+      "source_sha256": "cabe281e702559c55afdfa2fd10a3155df330ffbd0971e85def6a98b1604585a",
+      "destination": "modules/mayue/assets/study-figures/easyvfx-fig.webp",
+      "merged_sha256": "cabe281e702559c55afdfa2fd10a3155df330ffbd0971e85def6a98b1604585a",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/eedit-core.webp",
+      "source_sha256": "3e5cf1c18543298695a132a1884fa7328c3f8cf358265509e3358e3808e8596b",
+      "destination": "modules/mayue/assets/study-figures/eedit-core.webp",
+      "merged_sha256": "3e5cf1c18543298695a132a1884fa7328c3f8cf358265509e3358e3808e8596b",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/emoji-framework_0520.webp",
+      "source_sha256": "dddb769b3b2b33b49b3e150f04a92f918f7ea829a6ec258ad3cce52762ef45ef",
+      "destination": "modules/mayue/assets/study-figures/emoji-framework_0520.webp",
+      "merged_sha256": "dddb769b3b2b33b49b3e150f04a92f918f7ea829a6ec258ad3cce52762ef45ef",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/evctrl-core.webp",
+      "source_sha256": "4462b8bcacb632fc37dfbfbfcbe2486233a45e7d84f836d9b43330fa72e8c377",
+      "destination": "modules/mayue/assets/study-figures/evctrl-core.webp",
+      "merged_sha256": "4462b8bcacb632fc37dfbfbfcbe2486233a45e7d84f836d9b43330fa72e8c377",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/faster-fig.webp",
+      "source_sha256": "9dd8cd997c37b7f094a03e4b1496505405db20f098941b5fe70c14bf87cbdfa2",
+      "destination": "modules/mayue/assets/study-figures/faster-fig.webp",
+      "merged_sha256": "9dd8cd997c37b7f094a03e4b1496505405db20f098941b5fe70c14bf87cbdfa2",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/fastvmt-fig.webp",
+      "source_sha256": "00be3f120a97030c782714a4f01240ee6f94e8f8d2499c14f4777a011d632f3d",
+      "destination": "modules/mayue/assets/study-figures/fastvmt-fig.webp",
+      "merged_sha256": "00be3f120a97030c782714a4f01240ee6f94e8f8d2499c14f4777a011d632f3d",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/group-fig.webp",
+      "source_sha256": "7eba2f629011953b8b07baca0105840284ad3612f2333aed333478625a824fa6",
+      "destination": "modules/mayue/assets/study-figures/group-fig.webp",
+      "merged_sha256": "7eba2f629011953b8b07baca0105840284ad3612f2333aed333478625a824fa6",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/handle-fig.webp",
+      "source_sha256": "b28c4085fea18019b4f24636d207073191409e860c2bcbb5a296019a8454a089",
+      "destination": "modules/mayue/assets/study-figures/handle-fig.webp",
+      "merged_sha256": "b28c4085fea18019b4f24636d207073191409e860c2bcbb5a296019a8454a089",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/instanceanimator-core.webp",
+      "source_sha256": "fbffe7bd412d59f1287a2b438ef36e6cebc8b7c37501d5f20b646ab20acdd1b0",
+      "destination": "modules/mayue/assets/study-figures/instanceanimator-core.webp",
+      "merged_sha256": "fbffe7bd412d59f1287a2b438ef36e6cebc8b7c37501d5f20b646ab20acdd1b0",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/instantswap-core.webp",
+      "source_sha256": "bc0e758d2552c3aa3d4ddb380aa086fd89a746e2562ecc27d0f078b867952677",
+      "destination": "modules/mayue/assets/study-figures/instantswap-core.webp",
+      "merged_sha256": "bc0e758d2552c3aa3d4ddb380aa086fd89a746e2562ecc27d0f078b867952677",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/instruction-core.webp",
+      "source_sha256": "d997b70001f29ab81e28b2a312c2c25a667b9e2fb9fcd709af6648a338ee1136",
+      "destination": "modules/mayue/assets/study-figures/instruction-core.webp",
+      "merged_sha256": "d997b70001f29ab81e28b2a312c2c25a667b9e2fb9fcd709af6648a338ee1136",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/livelight-fig.webp",
+      "source_sha256": "e1eaeaad88212e284829bce051a8c3fec0fa0b9d87b2ec22640971f949590a16",
+      "destination": "modules/mayue/assets/study-figures/livelight-fig.webp",
+      "merged_sha256": "e1eaeaad88212e284829bce051a8c3fec0fa0b9d87b2ec22640971f949590a16",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/motion-framework0921.webp",
+      "source_sha256": "9d13ea9cf435827484d265de7eafcd8b35f0b1ca598d958d1d7ce402c3a21324",
+      "destination": "modules/mayue/assets/study-figures/motion-framework0921.webp",
+      "merged_sha256": "9d13ea9cf435827484d265de7eafcd8b35f0b1ca598d958d1d7ce402c3a21324",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/mseditor-core.webp",
+      "source_sha256": "4b239bb2e72f3558aa3fcc59c081bb8a06ad9cc0628886b191b74881d1332bd2",
+      "destination": "modules/mayue/assets/study-figures/mseditor-core.webp",
+      "merged_sha256": "4b239bb2e72f3558aa3fcc59c081bb8a06ad9cc0628886b191b74881d1332bd2",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/pose-framework2.webp",
+      "source_sha256": "6edeeff6c1752b948ed3ee84c4cd802b7cb0f22eb8fa0df9dfe110e23c54d679",
+      "destination": "modules/mayue/assets/study-figures/pose-framework2.webp",
+      "merged_sha256": "6edeeff6c1752b948ed3ee84c4cd802b7cb0f22eb8fa0df9dfe110e23c54d679",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "assets/study-figures/skipvar-core.webp",
+      "source_sha256": "de740020900ee69469b2f4245fe97c132cba8ffd82ab6266b41148d32007b32e",
+      "destination": "modules/mayue/assets/study-figures/skipvar-core.webp",
+      "merged_sha256": "de740020900ee69469b2f4245fe97c132cba8ffd82ab6266b41148d32007b32e",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/collaborator-cards.md",
+      "source_sha256": "9d0ba38147f5196c67de631d521d4245992004764915ce3d21d428c3404242d7",
+      "destination": "modules/mayue/references/collaborator-cards.md",
+      "merged_sha256": "9d0ba38147f5196c67de631d521d4245992004764915ce3d21d428c3404242d7",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/core-cards-2025-2026.md",
+      "source_sha256": "f173b8ae44ea3eb80d05cd1eb5ea42ce1b7f8f7274768cc96563ab3b835461a6",
+      "destination": "modules/mayue/references/core-cards-2025-2026.md",
+      "merged_sha256": "f173b8ae44ea3eb80d05cd1eb5ea42ce1b7f8f7274768cc96563ab3b835461a6",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/corpus-2025-2026.json",
+      "source_sha256": "80ac3389842f0230d6b66c2ee19c5b7161448d0d260f2b4da6d5349bc9698608",
+      "destination": "modules/mayue/references/corpus-2025-2026.json",
+      "merged_sha256": "80ac3389842f0230d6b66c2ee19c5b7161448d0d260f2b4da6d5349bc9698608",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/corpus-2025-2026.md",
+      "source_sha256": "96f85ee8cb27536cfa6a04df0827663a12b039e455af200e4777879ab6d8d43d",
+      "destination": "modules/mayue/references/corpus-2025-2026.md",
+      "merged_sha256": "96f85ee8cb27536cfa6a04df0827663a12b039e455af200e4777879ab6d8d43d",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/drawing-evidence.json",
+      "source_sha256": "0759a29ca7858c50a412ea17b774cfb87bc5f0b81dd58283274970bcf5d844f4",
+      "destination": "modules/mayue/references/drawing-evidence.json",
+      "merged_sha256": "0759a29ca7858c50a412ea17b774cfb87bc5f0b81dd58283274970bcf5d844f4",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/figure-execution.md",
+      "source_sha256": "084616a030662a54965889c66eaafa511168f9a969a3fff2ab344dc74fbac457",
+      "destination": "modules/mayue/references/figure-execution.md",
+      "merged_sha256": "084616a030662a54965889c66eaafa511168f9a969a3fff2ab344dc74fbac457",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/figure-playbook.md",
+      "source_sha256": "f75608152c17e8e0ed0db746613f15328b74e4e63ce96f71cdb85997a8458916",
+      "destination": "modules/mayue/references/figure-playbook.md",
+      "merged_sha256": "f75608152c17e8e0ed0db746613f15328b74e4e63ce96f71cdb85997a8458916",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/idea-evidence.md",
+      "source_sha256": "831ccf8b87268839f715ceb7fcd59673dd8ad39c92d9a27fb667dfa3a4cfd676",
+      "destination": "modules/mayue/references/idea-evidence.md",
+      "merged_sha256": "831ccf8b87268839f715ceb7fcd59673dd8ad39c92d9a27fb667dfa3a4cfd676",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/paper-cards.md",
+      "source_sha256": "c9e68e9390ca7afc9d371cc42844bbbb051b5558754897263db78a4e6e2285ea",
+      "destination": "modules/mayue/references/paper-cards.md",
+      "merged_sha256": "c9e68e9390ca7afc9d371cc42844bbbb051b5558754897263db78a4e6e2285ea",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/practice.md",
+      "source_sha256": "a062df92527d4fdbbf0fcef9f5b260451f0f078a59ea16cc51ab78e3f223dc16",
+      "destination": "modules/mayue/references/practice.md",
+      "merged_sha256": "a062df92527d4fdbbf0fcef9f5b260451f0f078a59ea16cc51ab78e3f223dc16",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/revision-playbook.md",
+      "source_sha256": "b80f1975d533ea8fbdbb2fffec806057ff825f37230c0d68c188522500764222",
+      "destination": "modules/mayue/references/revision-playbook.md",
+      "merged_sha256": "b80f1975d533ea8fbdbb2fffec806057ff825f37230c0d68c188522500764222",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/source-manifest.json",
+      "source_sha256": "4f3704f1c8d118371706ccd1db88c24b26a470906c5e53aaa77d9f80b61f1488",
+      "destination": "modules/mayue/references/source-manifest.json",
+      "merged_sha256": "4f3704f1c8d118371706ccd1db88c24b26a470906c5e53aaa77d9f80b61f1488",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/sources.md",
+      "source_sha256": "604a64e8c61bdcecb5debd73e1fcd743ef092cf1a8b9a4eb8845f2c9a41ccc19",
+      "destination": "modules/mayue/references/sources.md",
+      "merged_sha256": "604a64e8c61bdcecb5debd73e1fcd743ef092cf1a8b9a4eb8845f2c9a41ccc19",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "references/writing-playbook.md",
+      "source_sha256": "722f0ee751556cb19a276aaa7eafb5a3219dbcfc762606dfd9a1e40b209ca426",
+      "destination": "modules/mayue/references/writing-playbook.md",
+      "merged_sha256": "722f0ee751556cb19a276aaa7eafb5a3219dbcfc762606dfd9a1e40b209ca426",
+      "unchanged": true
+    },
+    {
+      "source_skill": "mayue-paper-skill",
+      "source_path": "scripts/generate_templates.py",
+      "source_sha256": "10b2a5f99164322b5622ba5006131538a6390a55fa1162e993d868b0a9637d82",
+      "destination": "modules/mayue/scripts/generate_templates.py",
+      "merged_sha256": "10b2a5f99164322b5622ba5006131538a6390a55fa1162e993d868b0a9637d82",
+      "unchanged": true
+    }
+  ],
+  "modified_imports": {
+    "references/section-writing.md": "Replaced obsolete skill hand-off with internal reference links."
+  },
+  "original_entry_bodies": "Consolidated into the canonical routes, integrated writing/figures, Mayue overlay and corpus tools; original entries backed up before installation.",
+  "research_refresh_performed": false
+}

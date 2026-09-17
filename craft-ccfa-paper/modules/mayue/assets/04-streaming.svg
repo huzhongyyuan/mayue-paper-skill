@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img">
+<title>04 / Make online timing explicit</title><desc>Rolling-window illustration · separate throughput, first-output latency and control-response latency Original editable conceptual template; no experimental results.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#65758a"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#24354a}.body{font-size:18px}.small{font-size:15px;fill:#65758a}.label{font-size:20px;font-weight:600}</style>
+<rect width="1200" height="690" fill="white"/>
+<text x="32" y="43" font-size="27" font-weight="700" text-anchor="start">04 / Make online timing explicit</text>
+<text x="32" y="72" font-size="16" font-weight="400" text-anchor="start" style="fill:#65758a">Rolling-window illustration · separate throughput, first-output latency and control-response latency</text>
+<text x="32" y="135" font-size="18" font-weight="600" text-anchor="start">Frame index →</text>
+<text x="332" y="135" font-size="18" font-weight="600" text-anchor="middle">t0</text>
+<text x="435" y="135" font-size="18" font-weight="600" text-anchor="middle">t1</text>
+<text x="538" y="135" font-size="18" font-weight="600" text-anchor="middle">t2</text>
+<text x="641" y="135" font-size="18" font-weight="600" text-anchor="middle">t3</text>
+<text x="744" y="135" font-size="18" font-weight="600" text-anchor="middle">t4</text>
+<text x="847" y="135" font-size="18" font-weight="600" text-anchor="middle">t5</text>
+<text x="950" y="135" font-size="18" font-weight="600" text-anchor="middle">t6</text>
+<text x="1053" y="135" font-size="18" font-weight="600" text-anchor="middle">t7</text>
+<text x="33" y="222" font-size="19" font-weight="600" text-anchor="start">Update n</text>
+<rect x="286" y="177" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="332" y="224" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="389" y="177" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="435" y="224" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="492" y="177" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="538" y="224" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="595" y="177" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="641" y="224" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="698" y="177" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="744" y="224" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="801" y="177" width="92" height="81" rx="6" fill="white" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="847" y="224" font-size="14" font-weight="400" text-anchor="middle">pending</text>
+<rect x="904" y="177" width="92" height="81" rx="6" fill="white" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="950" y="224" font-size="14" font-weight="400" text-anchor="middle">pending</text>
+<rect x="1007" y="177" width="92" height="81" rx="6" fill="white" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1053" y="224" font-size="14" font-weight="400" text-anchor="middle">pending</text>
+<rect x="486" y="170" width="310" height="95" rx="8" fill="none" stroke="#c78034" stroke-width="1.5"/>
+<text x="33" y="350" font-size="19" font-weight="600" text-anchor="start">Update n + 1</text>
+<rect x="286" y="305" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="332" y="352" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="389" y="305" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="435" y="352" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="492" y="305" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="538" y="352" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="595" y="305" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="641" y="352" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="698" y="305" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="744" y="352" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="801" y="305" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="847" y="352" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="904" y="305" width="92" height="81" rx="6" fill="white" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="950" y="352" font-size="14" font-weight="400" text-anchor="middle">pending</text>
+<rect x="1007" y="305" width="92" height="81" rx="6" fill="white" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1053" y="352" font-size="14" font-weight="400" text-anchor="middle">pending</text>
+<rect x="589" y="298" width="310" height="95" rx="8" fill="none" stroke="#c78034" stroke-width="1.5"/>
+<text x="33" y="478" font-size="19" font-weight="600" text-anchor="start">Update n + 2</text>
+<rect x="286" y="433" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="332" y="480" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="389" y="433" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="435" y="480" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="492" y="433" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="538" y="480" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="595" y="433" width="92" height="81" rx="6" fill="#f1f4f7" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="641" y="480" font-size="14" font-weight="400" text-anchor="middle">emitted</text>
+<rect x="698" y="433" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="744" y="480" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="801" y="433" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="847" y="480" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="904" y="433" width="92" height="81" rx="6" fill="#fff0df" stroke="#bdc8d4" stroke-width="1.5"/>
+<text x="950" y="480" font-size="14" font-weight="400" text-anchor="middle">active</text>
+<rect x="1007" y="433" width="92" height="81" rx="6" fill="white" stroke="#bdc8d4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1053" y="480" font-size="14" font-weight="400" text-anchor="middle">pending</text>
+<rect x="692" y="426" width="310" height="95" rx="8" fill="none" stroke="#c78034" stroke-width="1.5"/>
+<polyline points="543,268 646,296" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="646,397 749,424" fill="none" stroke="#65758a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="34" y="565" font-size="17" font-weight="400" text-anchor="start">New control at update n → first affected output: record both timestamps in the implementation.</text>
+<text x="34" y="600" font-size="16" font-weight="400" text-anchor="start" style="fill:#65758a">Orange: active window    Gray: committed history    Dashed: future output not yet produced</text>
+<text x="34" y="630" font-size="15" font-weight="400" text-anchor="start" style="fill:#65758a">Verify causality, overlap and state reuse; this template does not prescribe a particular streaming algorithm.</text>
+<text x="32" y="668" font-size="14" font-weight="400" text-anchor="start" style="fill:#65758a">STRUCTURAL TEMPLATE · replace labels and paths with verified method details</text>
+</svg>

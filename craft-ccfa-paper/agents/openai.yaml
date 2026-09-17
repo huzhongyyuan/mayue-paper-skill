@@ -1,0 +1,5 @@
+interface:
+  display_name: "CCF-A 论文全流程 · Mayue 合并版"
+  short_description: "融合顶会写作与马跃论文案例，完成研究设计、逐节改稿、可编辑图和排版"
+  brand_color: "#315C86"
+  default_prompt: "使用 $craft-ccfa-paper，结合顶会论文规范与适合我研究的 Mayue 写作图表模式，基于真实材料完成所需章节、图表或整篇修改。"

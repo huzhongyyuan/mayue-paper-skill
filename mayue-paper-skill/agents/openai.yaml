@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mayue 论文写作与画图 · CCF-A 合并版"
+  short_description: "结合 CCF-A 通用规范和马跃一作共一案例，逐节改稿、设计模块并画图"
+  default_prompt: "使用 $mayue-paper-skill，结合 CCF-A 通用规范与马跃一作共一论文模式，基于我的材料逐节写作改稿，并实际绘制可编辑图。"
+policy:
+  allow_implicit_invocation: true

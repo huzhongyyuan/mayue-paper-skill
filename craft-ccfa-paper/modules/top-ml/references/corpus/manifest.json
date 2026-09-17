@@ -1,0 +1,260 @@
+{
+  "as_of": "2026-08-04",
+  "generated_at_epoch": 1785819446,
+  "record_count": 25421,
+  "counts": {
+    "CVPR-2025": {
+      "total": 2871,
+      "poster": 2777,
+      "spotlight": 0,
+      "highlight": 0,
+      "oral": 94
+    },
+    "CVPR-2026": {
+      "total": 4068,
+      "poster": 3358,
+      "spotlight": 0,
+      "highlight": 569,
+      "oral": 141
+    },
+    "ICCV-2025": {
+      "total": 2701,
+      "poster": 2637,
+      "spotlight": 0,
+      "highlight": 0,
+      "oral": 64
+    },
+    "ICML-2025": {
+      "total": 3330,
+      "poster": 2988,
+      "spotlight": 223,
+      "highlight": 0,
+      "oral": 119
+    },
+    "ICML-2026": {
+      "total": 6628,
+      "poster": 6054,
+      "spotlight": 421,
+      "highlight": 0,
+      "oral": 153
+    },
+    "NeurIPS-2025": {
+      "total": 5823,
+      "poster": 5015,
+      "spotlight": 721,
+      "highlight": 0,
+      "oral": 87
+    }
+  },
+  "venue_year_status": [
+    {
+      "conference": "CVPR",
+      "year": 2025,
+      "status": "available"
+    },
+    {
+      "conference": "CVPR",
+      "year": 2026,
+      "status": "available"
+    },
+    {
+      "conference": "CVPR",
+      "year": 2027,
+      "status": "future"
+    },
+    {
+      "conference": "ICCV",
+      "year": 2025,
+      "status": "available"
+    },
+    {
+      "conference": "ICCV",
+      "year": 2026,
+      "status": "no-edition",
+      "note": "ICCV is held in odd-numbered years."
+    },
+    {
+      "conference": "ICCV",
+      "year": 2027,
+      "status": "future"
+    },
+    {
+      "conference": "NeurIPS",
+      "year": 2025,
+      "status": "available"
+    },
+    {
+      "conference": "NeurIPS",
+      "year": 2026,
+      "status": "future"
+    },
+    {
+      "conference": "NeurIPS",
+      "year": 2027,
+      "status": "future"
+    },
+    {
+      "conference": "ECCV",
+      "year": 2025,
+      "status": "no-edition",
+      "note": "ECCV is held in even-numbered years."
+    },
+    {
+      "conference": "ECCV",
+      "year": 2026,
+      "status": "not-public",
+      "note": "Official proceedings/accepted-paper list not public at the as-of date."
+    },
+    {
+      "conference": "ECCV",
+      "year": 2027,
+      "status": "no-edition",
+      "note": "ECCV is held in even-numbered years."
+    },
+    {
+      "conference": "ICML",
+      "year": 2025,
+      "status": "available"
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "status": "available-schedule",
+      "note": "Official schedule/OpenReview links; PMLR volume not used."
+    },
+    {
+      "conference": "ICML",
+      "year": 2027,
+      "status": "future"
+    }
+  ],
+  "sources": [
+    {
+      "conference": "CVPR",
+      "year": 2025,
+      "kind": "paper-list",
+      "url": "https://openaccess.thecvf.com/CVPR2025?day=all",
+      "records": 2871
+    },
+    {
+      "conference": "CVPR",
+      "year": 2026,
+      "kind": "paper-list",
+      "url": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "records": 4068
+    },
+    {
+      "conference": "ICCV",
+      "year": 2025,
+      "kind": "paper-list",
+      "url": "https://openaccess.thecvf.com/ICCV2025?day=all",
+      "records": 2701
+    },
+    {
+      "conference": "NeurIPS",
+      "year": 2025,
+      "kind": "paper-list",
+      "url": "https://papers.nips.cc/paper_files/paper/2025",
+      "records": 5823
+    },
+    {
+      "conference": "ICML",
+      "year": 2025,
+      "kind": "paper-list",
+      "url": "https://proceedings.mlr.press/v267/",
+      "records": 3330
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "kind": "paper-list",
+      "url": "https://icml.cc/Conferences/2026/Schedule?type=Poster",
+      "records": 6628
+    },
+    {
+      "conference": "CVPR",
+      "year": 2025,
+      "kind": "oral",
+      "url": "https://cvpr.thecvf.com/virtual/2025/events/oral",
+      "listed_titles": 95,
+      "matched_records": 94
+    },
+    {
+      "conference": "CVPR",
+      "year": 2026,
+      "kind": "oral",
+      "url": "https://cvpr.thecvf.com/virtual/2026/events/Oral",
+      "listed_titles": 141,
+      "matched_records": 141
+    },
+    {
+      "conference": "CVPR",
+      "year": 2026,
+      "kind": "highlight",
+      "url": "https://cvpr.thecvf.com/virtual/2026/events/Highlights2026",
+      "listed_titles": 575,
+      "matched_records": 569
+    },
+    {
+      "conference": "ICCV",
+      "year": 2025,
+      "kind": "oral",
+      "url": "https://iccv.thecvf.com/virtual/2025/events/oral",
+      "listed_titles": 64,
+      "matched_records": 64
+    },
+    {
+      "conference": "ICML",
+      "year": 2025,
+      "kind": "oral",
+      "url": "https://icml.cc/virtual/2025/events/oral",
+      "listed_titles": 120,
+      "matched_records": 119
+    },
+    {
+      "conference": "ICML",
+      "year": 2025,
+      "kind": "spotlight",
+      "url": "https://icml.cc/virtual/2025/events/2025SpotlightPosters",
+      "listed_titles": 224,
+      "matched_records": 223
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "kind": "oral",
+      "url": "https://icml.cc/virtual/2026/events/oral",
+      "listed_titles": 168,
+      "matched_records": 153
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "kind": "spotlight",
+      "url": "https://icml.cc/virtual/2026/events/2026SpotlightPosters",
+      "listed_titles": 574,
+      "matched_records": 574
+    },
+    {
+      "conference": "NeurIPS",
+      "year": 2025,
+      "kind": "oral",
+      "url": "https://neurips.cc/virtual/2025/loc/san-diego/events/oral",
+      "listed_titles": 87,
+      "matched_records": 87
+    },
+    {
+      "conference": "NeurIPS",
+      "year": 2025,
+      "kind": "spotlight",
+      "url": "https://neurips.cc/virtual/2025/loc/san-diego/events/spotlights-2025",
+      "listed_titles": 721,
+      "matched_records": 721
+    }
+  ],
+  "limitations": [
+    "Presentation labels are matched by normalized official titles.",
+    "ICML 2026 PDF links point to OpenReview and may trigger anti-bot protection.",
+    "Metadata collection does not imply that every PDF was downloaded or analyzed."
+  ]
+}

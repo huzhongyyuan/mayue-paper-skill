@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1200,
+    "height": 620,
+    "background": "#FFFFFF",
+    "padding": 42
+  },
+  "title": "Evidence-first research pipeline",
+  "subtitle": "Structured source renders to editable SVG and native PowerPoint shapes",
+  "style": {
+    "font_family": "Arial",
+    "font_size": 24,
+    "title_size": 34,
+    "subtitle_size": 18,
+    "node_fill": "#EAF2F8",
+    "node_stroke": "#315C86",
+    "text_color": "#17202A",
+    "edge_color": "#566573",
+    "group_fill": "#F7F9F9",
+    "group_stroke": "#CCD1D1"
+  },
+  "groups": [
+    {
+      "id": "research",
+      "label": "Research",
+      "x": 45,
+      "y": 145,
+      "width": 525,
+      "height": 390,
+      "fill": "#F4F8FB",
+      "stroke": "#A9CCE3"
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "x": 625,
+      "y": 145,
+      "width": 530,
+      "height": 390,
+      "fill": "#FBF8F2",
+      "stroke": "#D7BDE2"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "claim",
+      "label": "Claim contract",
+      "x": 95,
+      "y": 225,
+      "width": 185,
+      "height": 80,
+      "shape": "rounded",
+      "group": "research"
+    },
+    {
+      "id": "experiment",
+      "label": "Experiments",
+      "x": 330,
+      "y": 225,
+      "width": 185,
+      "height": 80,
+      "shape": "rounded",
+      "group": "research"
+    },
+    {
+      "id": "gate",
+      "label": "Evidence\npasses?",
+      "x": 225,
+      "y": 385,
+      "width": 160,
+      "height": 105,
+      "shape": "diamond",
+      "fill": "#FEF9E7",
+      "stroke": "#B7950B",
+      "group": "research"
+    },
+    {
+      "id": "paper",
+      "label": "Paper",
+      "x": 680,
+      "y": 225,
+      "width": 180,
+      "height": 80,
+      "shape": "rounded",
+      "fill": "#F5EEF8",
+      "stroke": "#7D3C98",
+      "group": "communication"
+    },
+    {
+      "id": "figures",
+      "label": "Editable figures",
+      "x": 925,
+      "y": 225,
+      "width": 185,
+      "height": 80,
+      "shape": "rounded",
+      "fill": "#F5EEF8",
+      "stroke": "#7D3C98",
+      "group": "communication"
+    },
+    {
+      "id": "talk",
+      "label": "Conference talk",
+      "x": 805,
+      "y": 385,
+      "width": 210,
+      "height": 80,
+      "shape": "rounded",
+      "fill": "#FDEDEC",
+      "stroke": "#A93226",
+      "group": "communication"
+    }
+  ],
+  "edges": [
+    {
+      "from": "claim",
+      "to": "experiment",
+      "label": "requires",
+      "semantic": "control",
+      "phase": "both"
+    },
+    {
+      "from": "experiment",
+      "to": "gate",
+      "label": "tests",
+      "semantic": "data",
+      "phase": "train"
+    },
+    {
+      "from": "gate",
+      "to": "claim",
+      "label": "revise",
+      "semantic": "feedback",
+      "phase": "train",
+      "style": "dashed",
+      "route": "curve"
+    },
+    {
+      "from": "gate",
+      "to": "paper",
+      "label": "verified",
+      "semantic": "data",
+      "phase": "both"
+    },
+    {
+      "from": "paper",
+      "to": "figures",
+      "label": "binds"
+    },
+    {
+      "from": "paper",
+      "to": "talk"
+    },
+    {
+      "from": "figures",
+      "to": "talk"
+    }
+  ],
+  "footer": "Edit the JSON source, then rebuild SVG/PPTX."
+}
